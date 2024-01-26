@@ -79,7 +79,7 @@ print(num)
 print(type(num))
 
 ###############################################################################
-# TODO: 3. (1 pt)
+# DONE: 3. (1 pt)
 #   We can also manually convert an object from one type to another. This is 
 #   also called casting.
 #
@@ -98,3 +98,10 @@ print(type(num))
 #   
 #   Once you have done this, change the above _TODO_ to DONE.
 ###############################################################################
+
+random = 26.78
+print(random)
+print(type(random))
+random = int(26.78)
+print(random)
+print(type(random))
